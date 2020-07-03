@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+}
+
+canvas{
+    box-shadow: 0 0 10px #ccc;
+    background: url(../img/grid.gif);
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+body {
+    text-align: center;
+}
+section{
+    display: inline-block;
+}
+svg {
+    width: 600px; height: 400px;
+    box-shadow: 0 0 10px #ccc;
+    background: url(../img/grid.gif);
+}
+canvas {
+	box-shadow: 0 0 10px #ccc;
+    background:url('../img/grid.gif');
+}
+
+/*모든 svg에 적용 가능한 속성 fill, fill-opacity stroke stroke-width stroke-opacity*/
+.r1 {
+    fill:coral; fill-opacity:.5; stroke:green; stroke-width:10px; stroke-opacity:.3;
+}
+.r2 {
+    fill:cornflowerblue; fill-opacity:.6;
+}
+.c1 {
+    fill:purple; stroke:hotpink; stroke-width:5px; fill-opacity:.7; stroke-opacity:.7;
+}
+.e1{
+    fill:coral;
+}
+.e2{
+    fill:gold; fill-opacity:.7;
+}
+.e3{
+    fill:brown;
+}
+.face{
+    fill:#fbceb1;
+}
+.ear{
+    fill:#F3C3A3;
+}
+.eyes{
+    fill:white; stroke:black; stroke-width:10px;
+}
+.eyebrowleft{
+    fill:black; transform: rotate(20deg); transform-origin: 220px 155px;
+}
+.eyebrowright{
+    fill:black; 
+    transform: rotate(-20deg); transform-origin: 330px 155px;
+}
+.mouth{
+    fill:#7a3649;
+}
+.hat1{
+    fill:#C75151;
+}
+.hat2{
+    fill:#C75151;
+}
+.hat3{
+    fill:#C75151;
+}
+.hat5{
+    fill:brown;
+}
+.n1{
+    stroke:red; stroke-width:10px; stroke-opacity:.5;
+}
+.n1:nth-of-type(2){
+    stroke:blue;
+}
+.p1{
+    fill:none;
+    stroke:orange; stroke-width:4px; 
+}
+.p1_1{
+    fill:none;
+    stroke:navy; stroke-width:4px; 
+}
+.p2{
+    fill:none;
+    stroke:green; stroke-width:4px;
+}
+.p3{
+    fill:none;
+    stroke:lightblue; stroke-width:5px;
+}
+.handler{
+    fill:none; stroke:pink; stroke-width:3px;
+}
+.heart{
+    fill:navy; stroke:yellow; stroke-width:5px;
+}
+.cjw1{
+    display: block;
+}
+.cjw1 img{
+    width:30%;
+}
+.cjw2{
+    display: block; height:60vh; background: url(../img/cjw.svg) 50% 50%; background-size: 5%;
+}
+
+
+
+
+
